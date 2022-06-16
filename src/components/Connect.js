@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
 	return (
-		<div className=" items-center justify-center w-screen h-screen bg-[url('./imgs/connectbg.jpg')] bg-center bg-cover bg-fixed">
+		<div className=" items-center justify-center w-screen h-screen bg-[url('./imgs/connectbg.jpg')] bg-center bg-cover bg-fixed" id="social">
 			<div className="flex items-center justify-center text-center bg-white/40 text-black w-screen pb-3">
 				<div
 					className="font-thin font-sans tracking-wide text-5xl sm:text-6xl mt-3"

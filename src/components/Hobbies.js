@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Hobbies() {
 	return (
-		<div className="w-screen h-screen bg-[url('./imgs/hobbiesbg.jpg')] bg-center bg-cover bg-fixed justify-items-center overflow-hidden">
+		<div className="w-screen h-screen bg-[url('./imgs/hobbiesbg.jpg')] bg-center bg-cover bg-fixed justify-items-center overflow-hidden" id="hobbies">
 			<div className="flex w-screen">
 				<div className="m-auto">
 					<div
-						className="font-medium text-gray-300 tracking-tighter text-base sm:text-2xl sm:text-3xl font-sans w-full rounded bg-black/70 mt-2 sm:mt-4 shadow-lg p-2 sm:p-4 mb-3 sm:mb-12"
+						className="font-medium text-gray-300 tracking-tighter text-base sm:text-2xl sm:text-3xl font-sans w-full rounded-lg bg-black/70 mt-2 sm:mt-4 shadow-lg p-2 sm:p-4 mb-3 sm:mb-12"
 						data-aos="zoom-in">
 						In my free time, I like to..
 					</div>
@@ -55,7 +55,8 @@ export default function Hobbies() {
 					<div className="text-white text-xs sm:text-base">
 						Always planning trips in the shortest of breaks: 21 countries and
 						counting! I love exploring new cultures, meeting new people,
-						learning new perspectives, and occasionally capturing moments.
+						learning new perspectives, and occasionally capturing moments. Check
+						out my photography portfolio below!
 					</div>
 					<button class="absolute bottom-3 sm:bottom-4 text-xs sm:text-base bg-transparent hover:bg-white text-white font-semibold hover:text-black border border-white hover:border-transparent rounded p-2">
 						My Medium Page

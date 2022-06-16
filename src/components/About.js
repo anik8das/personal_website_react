@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
 	return (
-		<div className="w-screen h-screen overflow-hidden bg-[url('./imgs/aboutbg.jpg')] bg-center bg-cover bg-fixed">
+		<div className="w-screen h-screen overflow-hidden bg-[url('./imgs/aboutbg.jpg')] bg-center bg-cover bg-fixed" id="about">
 			<div
 				className="w-11/12 sm:w-1/2 rounded bg-white/75 ml-3 sm:ml-12 mt-3 sm:mt-10 shadow-lg p-6"
 				data-aos="zoom-in">
