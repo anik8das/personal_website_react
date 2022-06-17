@@ -6,7 +6,7 @@ export default function Navbar() {
 		setTimeout(() => {
 			setOpacity(0);
 		}, 500);
-	});
+	}, []);
 
 	function scrollTo(id) {
 		const anchor = document.querySelector(id);

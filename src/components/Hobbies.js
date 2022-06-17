@@ -11,7 +11,7 @@ export default function Hobbies() {
 			<div className="flex w-screen">
 				<div className="m-auto">
 					<div
-						className="font-light text-gray-300 tracking-tighter text-lg sm:text-2xl lg:text-3xl 2xl:text-4xl font-sans w-full rounded-lg bg-black/70 mt-2 sm:mt-4 lg:mt-6 2xl:mt-8 shadow-lg p-2 sm:p-4 mb-3 sm:mb-12"
+						className="font-medium text-gray-300 tracking-tighter text-lg sm:text-2xl lg:text-3xl 2xl:text-4xl font-sans w-full rounded-lg bg-black/70 mt-2 sm:mt-4 lg:mt-6 2xl:mt-8 shadow-lg p-2 sm:p-4 mb-3 sm:mb-12"
 						data-aos="zoom-in">
 						In my free time, I like to..
 					</div>
@@ -20,8 +20,8 @@ export default function Hobbies() {
 			<div className="flex w-screen mb-2 sm:mb-5 lg:mb-8 xl:mb-11">
 				<div
 					className="w-1/2 sm:w-5/12 lg:w-1/3 2xl:w-1/4 rounded overflow-hidden bg-black/60 shadow-lg p-3 sm:p-5 ml-1 sm:ml-2 md:ml-3 lg:ml-4 xl:ml-5 2xl:ml-6 mr-2 sm:mr-auto"
-					data-aos="fade-right">
-					<div className="font-bold text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl mb-2">
+					data-aos="fade-down-right">
+					<div className="font-bold text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl mb-2 sm:mb-3">
 						Solve Rubik's Cubes
 					</div>
 					<div className="text-white text-xs sm:text-sm lg:text-base 2xl:text-xl mb-5">
@@ -36,8 +36,8 @@ export default function Hobbies() {
 				</div>
 				<div
 					className="relative w-1/2 sm:w-5/12 lg:w-1/3 2xl:w-1/4 rounded overflow-hidden bg-black/60 shadow-lg p-3 sm:p-5 mr-1 sm:mr-2 md:mr-3 lg:mr-4 xl:mr-5 2xl:mr-6"
-					data-aos="fade-left">
-					<div className="font-bold text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl mb-2">
+					data-aos="fade-down-left">
+					<div className="font-bold text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl mb-2 sm:mb-3">
 						Code
 					</div>
 					<div className="text-white text-xs sm:text-sm lg:text-base 2xl:text-xl">
@@ -53,8 +53,8 @@ export default function Hobbies() {
 			<div className="flex w-screen">
 				<div
 					className="relative w-1/2 sm:w-5/12 lg:w-1/3 2xl:w-1/4 rounded overflow-hidden bg-black/60 shadow-lg p-3 sm:p-5 ml-1 sm:ml-2 md:ml-3 lg:ml-4 xl:ml-5 2xl:ml-6 mr-2 sm:mr-auto"
-					data-aos="fade-right">
-					<div className="font-bold text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl mb-2">
+					data-aos="fade-up-right">
+					<div className="font-bold text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl mb-2 sm:mb-3">
 						Travel and snap
 					</div>
 					<div className="text-white text-xs sm:text-sm lg:text-base 2xl:text-xl">
@@ -69,9 +69,9 @@ export default function Hobbies() {
 				</div>
 				<div
 					className="w-1/2 sm:w-5/12 lg:w-1/3 2xl:w-1/4 rounded overflow-hidden bg-black/60 shadow-lg p-3 sm:p-5 mr-1 sm:mr-2 md:mr-3 lg:mr-4 xl:mr-5 2xl:mr-6"
-					data-aos="fade-left">
-					<div className="font-bold text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl mb-3">
-						Read & Write occasionally
+					data-aos="fade-up-left">
+					<div className="font-bold text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl mb-2 sm:mb-3">
+						Read & write occasionally
 					</div>
 					<div className="text-white text-xs sm:text-sm lg:text-base 2xl:text-xl mb-4">
 						To stimulate ideas, I devour non-fiction and educational Youtube. I
