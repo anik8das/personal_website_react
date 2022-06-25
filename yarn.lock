@@ -7759,7 +7759,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@^15.8.1":
+"prop-types@^15.5.8", "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -7898,7 +7898,15 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@^18.0.0", "react-dom@^18.1.0":
+"react-document-meta@^3.0.0-beta.2":
+  "integrity" "sha512-iRQ2tFsYFXVARPXIVjTmEbdkf+Ngz/NJYvQPdUjuE4U0icUpPD5F9OfpKZDy06msya3p58IWHRu+2P8x9Lli+w=="
+  "resolved" "https://registry.npmjs.org/react-document-meta/-/react-document-meta-3.0.0-beta.2.tgz"
+  "version" "3.0.0-beta.2"
+  dependencies:
+    "prop-types" "^15.5.8"
+    "react-side-effect" "^1.1.0"
+
+"react-dom@^18.0.0", "react-dom@^18.1.0", "react-dom@>=0.14.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -7986,7 +7994,14 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@^16.8 || ^17 || ^18", "react@^18.0.0", "react@^18.1.0", "react@^18.2.0", "react@>= 16":
+"react-side-effect@^1.1.0":
+  "integrity" "sha512-v1ht1aHg5k/thv56DRcjw+WtojuuDHFUgGfc+bFHOWsF4ZK6C2V57DO0Or0GPsg6+LSTE0M6Ry/gfzhzSwbc5w=="
+  "resolved" "https://registry.npmjs.org/react-side-effect/-/react-side-effect-1.2.0.tgz"
+  "version" "1.2.0"
+  dependencies:
+    "shallowequal" "^1.0.1"
+
+"react@^0.13.0 || ^0.14.0 || ^15.0.0 || ^16.0.0", "react@^16.8 || ^17 || ^18", "react@^18.0.0", "react@^18.1.0", "react@^18.2.0", "react@>= 16", "react@>=0.14.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -8441,6 +8456,11 @@
   "integrity" "sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw=="
   "resolved" "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz"
   "version" "1.2.0"
+
+"shallowequal@^1.0.1":
+  "integrity" "sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ=="
+  "resolved" "https://registry.npmjs.org/shallowequal/-/shallowequal-1.1.0.tgz"
+  "version" "1.1.0"
 
 "shebang-command@^2.0.0":
   "integrity" "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA=="
