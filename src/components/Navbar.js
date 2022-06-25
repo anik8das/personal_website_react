@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Hamburger from "hamburger-react";
+import "./navbar.css"
 
 const delay = 7;
 
@@ -83,7 +84,7 @@ export default function Navbar() {
 				onMouseOver={() => setHover(true)}
 				onMouseOut={() => setHover(false)}
 				className={`fixed invisible sm:visible mt-0 w-screen z-50 hover:opacity-100 transition ease-linear duration-500`}>
-				<ul className="flex bg-black items-center justify-center text-center h-20 z-50">
+				<ul className="flex bg-black topBotomBordersOut items-center justify-center text-center h-20 z-50">
 					<li className="mr-32">
 						<button
 							className="text-gray-400 hover:text-white"
