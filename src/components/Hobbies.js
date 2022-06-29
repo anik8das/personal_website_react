@@ -6,7 +6,7 @@ export default function Hobbies() {
 	}
 	return (
 		<div
-			className="w-screen h-screen bg-[url('./imgs/hobbiesbg.jpg')] bg-center bg-cover bg-fixed justify-items-center overflow-hidden"
+			className="w-screen h-screen bg-[url('./imgs/hobbiesbg.jpg')] bg-center bg-cover sm:bg-fixed justify-items-center overflow-hidden"
 			id="hobbies" >
 			<div className="flex w-screen">
 				<div className="m-auto">

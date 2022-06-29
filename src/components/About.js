@@ -4,7 +4,7 @@ export default function About() {
 	const aStyle = "font-light hover:underline";
 	return (
 		<div
-			className="w-screen h-screen overflow-hidden bg-[url('./imgs/aboutbg.jpg')] bg-center bg-cover bg-fixed"
+			className="w-screen h-screen overflow-hidden bg-[url('./imgs/aboutbg.jpg')] bg-center bg-cover sm:bg-fixed"
 			id="about">
 			<div
 				className="w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 2xl:w-1/2 rounded bg-white/80 ml-3 sm:ml-4 md:ml-6 lg:ml-8 xl:ml-12 mt-3 sm:mt-4 md:mt-5 lg:mt-7 xl:mt-10 shadow-lg p-5 sm:p-6 lg:p-7 xl:p-8 2xl:p-12"

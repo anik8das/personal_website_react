@@ -12,7 +12,6 @@ export default function Navbar() {
 
 	useEffect(() => {
 		let timer = setTimeout(() => {
-			console.log(0);
 			setOpacity(0);
 		}, delay * 100);
 		return () => {

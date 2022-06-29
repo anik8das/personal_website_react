@@ -5,7 +5,7 @@ export default function Home() {
 		window.open(link, "_blank");
 	}
 	return (
-		<div className=" items-center justify-center w-screen h-screen bg-[url('./imgs/connectbg.jpg')] bg-center bg-cover bg-fixed" id="social">
+		<div className=" items-center justify-center w-screen h-screen bg-[url('./imgs/connectbg.jpg')] bg-center bg-cover sm:bg-fixed" id="social">
 			<div className="flex items-center justify-center text-center bg-white/40 text-black w-screen pb-3">
 				<div
 					className="font-thin font-sans tracking-wide text-5xl sm:text-6xl xl:text-7xl 2xl:text-7xl mt-3"
