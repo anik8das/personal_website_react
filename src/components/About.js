@@ -29,7 +29,7 @@ export default function About() {
 					got into Software Engineering professionally because it literally
 					gives one the power to bring ideas to life; here’s my{" "}
 					<a
-						href="https://aniket-das-resume.tiiny.site/"
+						href="https://drive.google.com/file/d/12YEYe71nFEvgGzgUx7LWP7RK1A1h4vuk/view"
 						target="_blank"
 						rel="noreferrer"
 						className={aStyle}>
