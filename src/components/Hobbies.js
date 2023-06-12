@@ -28,10 +28,10 @@ export default function Hobbies() {
 					</div>
 					<div className="text-white text-xs sm:text-sm lg:text-base 2xl:text-xl mb-5">
 						I've been a professional speedcuber since 2015. I hold a
-						Guinness World Record, am the current runner-up Asian
-						Champion, former second runner up World Champion, and
-						also make a short appearance on the Netflix Movie 'The
-						Speed Cubers.'
+						Guinness World Record and am a former runner-up Asian
+						Champion and second runner up World Champion, in
+						addition to making a short appearance on the Netflix
+						Movie 'The Speed Cubers.'
 					</div>
 					<button
 						className="text-xs sm:text-sm lg:text-base 2xl:text-xl bg-transparent hover:bg-white text-white font-semibold hover:text-black border border-white hover:border-transparent rounded p-2"
@@ -51,9 +51,10 @@ export default function Hobbies() {
 						Code
 					</div>
 					<div className="text-white text-xs sm:text-sm lg:text-base 2xl:text-xl">
-						I aspire to build systems for sustainability, medical advances,
-						general convenience, and combating inequality. I often work on small
-						individual projects and love testing ideas in an agile format.
+						I aspire to build systems for sustainability, medical
+						advances, combating inequality, and personal
+						productivity. I often work on small individual projects
+						and love testing ideas in an agile format.
 					</div>
 					<button
 						className="absolute bottom-3 sm:bottom-5 text-xs sm:text-sm lg:text-base 2xl:text-xl bg-transparent hover:bg-white text-white font-semibold hover:text-black border border-white hover:border-transparent rounded p-2"
@@ -71,10 +72,11 @@ export default function Hobbies() {
 						Travel and snap
 					</div>
 					<div className="text-white text-xs sm:text-sm lg:text-base 2xl:text-xl">
-						You can find me planning trips in the shortest of breaks: 21
-						countries and counting! I love exploring new cultures, meeting new
-						people, learning new perspectives, and occasionally capturing
-						moments. Check out my photography portfolio below!
+						You can find me planning trips in the shortest of
+						breaks: 30 countries and counting! I love exploring new
+						cultures, meeting new people, learning new perspectives,
+						and occasionally capturing moments. Check out my
+						photography portfolio below!
 					</div>
 					<button
 						className="absolute bottom-3 sm:bottom-5 text-xs sm:text-sm lg:text-base 2xl:text-xl bg-transparent hover:bg-white text-white font-semibold hover:text-black border border-white hover:border-transparent rounded p-2"
@@ -92,11 +94,11 @@ export default function Hobbies() {
 						Read & write occasionally
 					</div>
 					<div className="text-white text-xs sm:text-sm lg:text-base 2xl:text-xl mb-4">
-						To stimulate ideas, I devour non-fiction and educational Youtube. I
-						journal daily but realized I still bear anxiety while writing
-						anything that's public. To get over this fear, I started writing an
-						article a month since 2022, mostly focussed on my growth and
-						theories.
+						To stimulate ideas, I devour non-fiction and educational
+						Youtube. I journal frequently but realized I still bear
+						anxiety while writing anything that's public. To get
+						over this fear, I started frequently publishing articles
+						since 2022, mostly focussed on my growth and theories.
 					</div>
 					<button
 						className="text-xs sm:text-sm lg:text-base 2xl:text-xl bg-transparent hover:bg-white text-white font-semibold hover:text-black border border-white hover:border-transparent rounded p-2"
