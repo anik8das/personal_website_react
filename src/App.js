@@ -1,12 +1,13 @@
-import Home from "./components/Home";
-import About from "./components/About";
-import Hobbies from "./components/Hobbies";
-import Connect from "./components/Connect";
-import Navbar from "./components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import DocumentMeta from "react-document-meta";
+import LazyLoad from "react-lazyload";
+import About from "./components/About";
+import Connect from "./components/Connect";
+import Hobbies from "./components/Hobbies";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 
 const meta = {
 	title: "Aniket Das",
@@ -32,9 +33,15 @@ function App() {
 			<div className="snap-y snap-mandatory">
 				<Navbar />
 				<Home className="snap-always snap-center" />
-				<About className="snap-always snap-center" />
-				<Hobbies className="snap-always snap-center" />
-				<Connect className="snap-always snap-center" />
+				<LazyLoad height={200} once>
+					<About className="snap-always snap-center" />
+				</LazyLoad>
+				<LazyLoad height={200} once>
+					<Hobbies className="snap-always snap-center" />
+				</LazyLoad>
+				<LazyLoad height={200} once>
+					<Connect className="snap-always snap-center" />
+				</LazyLoad>
 			</div>
 		</DocumentMeta>
 	);
