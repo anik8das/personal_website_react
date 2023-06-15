@@ -14,23 +14,45 @@ export default function About() {
 					A short & dramatic introduction
 				</div>
 				<div className="font-sans font-extralight text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-					I'm Aniket Das, a rising senior and CS major at Minerva
-					University. I unravelled so many stereotypes after my first
-					international trip to China for the 2016 Rubik's Cube Asian
-					Championships that it inspired me to travel, gather diverse
-					perspectives, and learn more about different cultures than
-					ever before. I’ve been exploring the world since as part of
-					Minerva’s global rotation and international cubing
-					championships. Witnessing my exponential personal and
-					professional growth by being around the selective and
-					diverse student body at Minerva stimulated me to
-					intentionally surround myself with and learn from people who
-					help build a growth conducive and healthy environment around
-					me. Realizing my privilege and the scary lack of it in the
-					world motivated me to be purposeful about my actions and
-					give back. I got into Software Engineering professionally
-					because it literally gives one the power to bring ideas to
-					life; here’s my{" "}
+					I'm Aniket Das, a{" "}
+					<a
+						href="https://www.minerva.edu/"
+						target="_blank"
+						rel="noreferrer"
+						className={aStyle}>
+						Minerva
+					</a>{" "}
+					alum working as a Software Engineer at{" "}
+					<a
+						href="https://reflexion.com/our-company"
+						target="_blank"
+						rel="noreferrer"
+						className={aStyle}>
+						RefleXion Medical
+					</a>
+					. I unravelled many stereotypes after my first international
+					trip to China for the 2016 Rubik's Cube Asian Championships,
+					which inspired me to travel, gather diverse perspectives,
+					and learn more about different cultures than ever before.
+					I’ve since been exploring the world, heavily supported by
+					Minerva’s{" "}
+					<a
+						href="https://www.minerva.edu/undergraduate-program/global-experience/"
+						target="_blank"
+						rel="noreferrer"
+						className={aStyle}>
+						global rotation
+					</a>{" "}
+					and international cubing championships. Witnessing my
+					exponential personal and professional growth by being around
+					the selective and diverse student body at Minerva stimulated
+					me to intentionally surround myself with and learn from
+					people who help build a growth conducive and healthy
+					environment around me. Realizing my privilege and the scary
+					lack of it in the world motivated me to be purposeful about
+					my actions and give back. I got into Software Engineering
+					professionally because it literally gives one the power to
+					bring ideas to life; here’s my{" "}
 					<a
 						href="https://drive.google.com/file/d/12YEYe71nFEvgGzgUx7LWP7RK1A1h4vuk/view"
 						target="_blank"
@@ -38,10 +60,10 @@ export default function About() {
 						className={aStyle}>
 						CV
 					</a>{" "}
-					if you're interested in my professional qualifications and
-					experience. I aspire to leverage technology for
-					sustainability, medical advances, and combating inequality.
-					Welcome to my page!
+					if you're interested. I'm currently building systems to
+					fight cancer and aspire to continue leveraging technology
+					for sustainability, medical advances, and combating
+					inequality. Welcome!
 				</div>
 			</div>
 		</div>
