@@ -2,7 +2,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import DocumentMeta from "react-document-meta";
-import LazyLoad from "react-lazyload";
 import About from "./components/About";
 import Connect from "./components/Connect";
 import Hobbies from "./components/Hobbies";
@@ -33,15 +32,9 @@ function App() {
 			<div className="snap-y snap-mandatory">
 				<Navbar />
 				<Home className="snap-always snap-center" />
-				<LazyLoad height={200} once>
-					<About className="snap-always snap-center" />
-				</LazyLoad>
-				<LazyLoad height={200} once>
-					<Hobbies className="snap-always snap-center" />
-				</LazyLoad>
-				<LazyLoad height={200} once>
-					<Connect className="snap-always snap-center" />
-				</LazyLoad>
+				<About className="snap-always snap-center" />
+				<Hobbies className="snap-always snap-center" />
+				<Connect className="snap-always snap-center" />
 			</div>
 		</DocumentMeta>
 	);
